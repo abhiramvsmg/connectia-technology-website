@@ -1,0 +1,57 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Session data, logs and temporary files
+sessions/
+*.log
+error_log
+tmp/
+temp/
+
+# Local PHP diagnostic files
+phpinfo.php
+test.php
+
+# Temporary hosting files
+.htaccess.lock-*
+.htaccess.phpupgrader.*
+.ovi-knowns/
+
+# Local archives and backups
+*.zip
+*.backup
+index_old_backup.php
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Composer dependencies
+/vendor/
+
+
+# Hosting-specific PHP configuration
+.user.ini
+php.ini
+
+# Sensitive application configuration
+admin/app/config/config.php
+
+# Personal information
+admin/resumes/
+
+# Hosting-specific files
+vual/.ftpquota
+
+# Applicant resumes and private uploads
+admin/assets/uploads/resumes/
+admin/resumes/
+
+# Backup files
+*.bak

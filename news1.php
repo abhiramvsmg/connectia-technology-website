@@ -1,0 +1,176 @@
+<?php
+include 'admin/app/security/csrf.php';
+include './admin/app/database/Connection.php';
+$db = new Connection();
+
+$newsId = isset($_GET['id']) ? $_GET['id'] : null;
+
+
+$news  = array();
+
+$sql = "SELECT *, DATE_FORMAT(created_at,'%d-%b-%Y') as `cdate` FROM `news` WHERE newsId = :newsId";
+$params = array(":newsId" => $newsId);
+
+$result = $db->run($sql, $params);
+if ($result["status"] == "success" && count($result["data"]) > 0) {
+    $news = $result["data"][0];
+}
+else
+{
+    $news = array();
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $blog['blogHeading']; ?></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/favicon.png" rel="apple-touch-icon">
+</head>
+
+<body>
+    <!-- header code start here -->
+    <?php
+    include 'includes/navbar.php';
+    ?>
+    <!-- header code end here -->
+    <div class="h-100 d-flex py-3 py-lg-5 position-relative">
+        <div class="container">
+            <div class="row g-4 mx-0 mx-lg-5">
+                <div class="col-12">
+                    <div class="d-flex flex-column gap-0 gap-lg-4">
+                        <h3 class="text-uppercase font-700 text-light-black text-center "><?php echo $news['newsHeading']; ?></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   <?php
+$newsContent = isset($news['newsContent']) ? explode("\n", trim($news['newsContent'])) : [];
+// $conclusionContent = isset($blog['conclusion']) ? explode("\n", trim($blog['conclusion'])) : [];
+?>
+
+    <div class="container">
+        <div class="row align-items-center g-4 mx-0 mx-lg-5">
+            <div class="col-12 col-lg-12">
+                <div class="col-12 col-lg-12">
+                    <?php foreach (array_merge($newsContent) as $content) : ?>
+                        <?php if (strpos($content, ':') !== false) : ?>
+                            <h5 class="font-weight-bold mb-2"><?php echo $content; ?></h5>
+                        <?php else : ?>
+                            <p class="font-500 text-light-black opacity-0.8 lh-base font-18px text-justify"><?php echo $content; ?></p>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php
+    include 'partials/contactnow.php';
+    ?>
+    <?php
+    include 'includes/footer.php';
+    ?>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./static/js/index.js"></script>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/new.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <!-- Banner Loop -->
+
+    <!-- JavaScript -->
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css" />
+    <!-- Alertify js Ends -->
+
+    <script>
+        $(document).ready(function() {
+            $("#SendMail").click(function() {
+                var delay = alertify.get('notifier', 'delay');
+                alertify.set('notifier', 'delay', 2);
+                alertify.set('notifier', 'position', 'top-right');
+
+
+                var First = $("#FirstName").val();
+                var Email = $("#E_Mail").val();
+                var Phone = $("#PhoneNumber").val();
+                var Msg = $("#Message").val();
+
+                if (First == "") {
+                    alertify.error('Please fill the Name !! ');
+                    $("#FirstName").focus();
+                } else if (Email == "") {
+                    alertify.error('Please fill the Email !! ');
+                    $("#E_Mail").focus();
+                } else if (Phone == "") {
+                    alertify.error('Please fill the Phone Number !! ');
+                    $("#PhoneNumber").focus();
+                } else if (Msg == "") {
+                    alertify.error('Please fill the Message !! ');
+                    $("#Message").focus();
+                } else {
+                    //   alertify.set('notifier', 'delay', 7);
+                    //   alertify.error('Please wait.. ');
+                    var data = new FormData();
+                    data.append('FirstN', First);
+                    data.append('EMail', Email);
+                    data.append('PhoneN', Phone);
+                    data.append('Messag', Msg);
+
+                    $.ajax({
+                        url: "file.php",
+                        type: "POST",
+                        data: data,
+                        cache: false,
+                        contentType: false,
+                        processData: false,
+                        success: function(response) {
+                            // console.log(response);
+                            if (response == 3) {
+                                alertify.alert('Contact Form', 'Thank you for contacting us.', function() {
+                                    window.location.reload();
+                                });
+                            } else {
+                                alertify.alert('Contact Form', 'Something went wrong !! Please Try again', function() {
+                                    window.location.reload();
+                                });
+                            }
+                        }
+                    });
+                }
+
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
