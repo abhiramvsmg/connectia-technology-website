@@ -591,33 +591,18 @@ include 'admin/app/security/csrf.php';
             <div class="row gy-4 mx-0 mx-lg-5">
                 <div class="col-10 col-lg-4">
                     <div class="text-uppercase font-manrope font-700 light-black">Service</div>
-                    <div class="font-manrope font-700 font-size-2xl mt-3 lh-1 light-black">Explore Our Service</div>
+                    <div class="font-manrope font-700 font-size-2xl mt-3 lh-1 light-black">Explore Our Services</div>
                     <p class="font-400 text-light-black opacity-0.8 line-height-26px font-16px mt-3">
                         Whatever brought you here — a slow website, a security scare, an app idea sitting in your notes app for six months — chances are, it's on this list. Connectia builds and runs the tech stack so you can stop stitching one together yourself.
                     </p>
                 </div>
-                <div class="col-12 col-lg-8">
-                    <div class="d-flex gap-3 h-100 justify-content-end">
-                        <button class="btn btn-transparent prev-service-slider shadow-none">
-                            <svg width="44" height="18" viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.10857 0.578125L11.29 2.74504L6.55776 7.47732H43.6084V10.5361H6.55776L11.29 15.2684L9.10857 17.4353L0.699112 9.00673L9.10857 0.578125Z" fill="#000B33" />
-                            </svg>
-                        </button>
-                        <button class="btn btn-transparent next-service-slider shadow-none">
-                            <svg width="44" height="18" viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M34.8231 0.578125L32.6416 2.74504L37.3739 7.47732H0.323242V10.5361H37.3739L32.6416 15.2684L34.8231 17.4353L43.2325 9.00673L34.8231 0.578125Z" fill="#000B33" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
                 <div class="col-12">
-                    <div class="service-slider overflow-hidden" data-default="[space=1]">
-                        <div class="mt-0 mt-lg-5 pt-0 pt-lg-5">
-                            <div class="col-12">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-lg-4">
+                        <div class="col">
+                            <div class="col-12 h-100">
                                 <div class="bg-official-card h-100 p-4">
                                     <div class="d-flex flex-column justify-content-between gap-3 h-100">
                                         <div>
-                                            <img loading="lazy" src="/static/images/services/software-development.png" class="img-fluid" alt="Software Development">
                                             <h3 class="font-700 font-manrope text-white fs-5 mt-3">Software Development</h3>
                                             <p class="font-roboto-slab lh-lg font-15px font-400 text-lighter">Tired of software that almost fits? That "we'll just work around it" feeling gets old fast. We build custom software development around how your business actually runs — not the other way around. Scalable, secure, and built to grow with you instead of holding you back.</p>
                                             <ul class="list-unstyled d-flex flex-column gap-2 my-3 font-roboto-slab font-14px text-lighter opacity-0.9">
@@ -635,19 +620,18 @@ include 'admin/app/security/csrf.php';
                                                 </li>
                                             </ul>
                                         </div>
-                                        <a href="mailto:support@connectia.in?subject=Software%20Development" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
+                                        <a href="software-development.php" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
                                             <span>Start your build →</span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-0 mt-lg-3 pt-0 pt-lg-3">
-                            <div class="col-12">
+                        <div class="col">
+                            <div class="col-12 h-100">
                                 <div class="bg-official-card h-100 p-4">
                                     <div class="d-flex flex-column justify-content-between gap-3 h-100">
                                         <div>
-                                            <img loading="lazy" src="/static/images/services/web-application-devlopmeent.png" class="img-fluid" alt="Website Development">
                                             <h3 class="font-700 font-manrope text-white fs-5 mt-3">Website Development</h3>
                                             <p class="font-roboto-slab lh-lg font-15px font-400 text-lighter">Your website is often the first — and only — shot you get. If it's slow, dated, or invisible on Google, that shot's already gone. We build fast, responsive websites with web design and development that's SEO-ready from day one, so people actually find you and stick around.</p>
                                             <ul class="list-unstyled d-flex flex-column gap-2 my-3 font-roboto-slab font-14px text-lighter opacity-0.9">
@@ -665,19 +649,18 @@ include 'admin/app/security/csrf.php';
                                                 </li>
                                             </ul>
                                         </div>
-                                        <a href="mailto:support@connectia.in?subject=Website%20Development" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
+                                        <a href="web-development.php" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
                                             <span>Get your website built →</span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-0 mt-lg-1 pt-0 pt-lg-1">
-                            <div class="col-12">
+                        <div class="col">
+                            <div class="col-12 h-100">
                                 <div class="bg-official-card h-100 p-4">
                                     <div class="d-flex flex-column justify-content-between gap-3 h-100">
                                         <div>
-                                            <img loading="lazy" src="/static/images/services/web-design.png" class="img-fluid" alt="Graphic Design, UI/UX">
                                             <h3 class="font-700 font-manrope text-white fs-5 mt-3">Graphic Design, UI/UX</h3>
                                             <p class="font-roboto-slab lh-lg font-15px font-400 text-lighter">Ever land on a site and think, "who made this?" — in a good way? That's what good UI/UX and graphic design does. We design brand identities and interfaces people actually enjoy using, grounded in how people really click, scroll, and decide.</p>
                                             <ul class="list-unstyled d-flex flex-column gap-2 my-3 font-roboto-slab font-14px text-lighter opacity-0.9">
@@ -695,19 +678,18 @@ include 'admin/app/security/csrf.php';
                                                 </li>
                                             </ul>
                                         </div>
-                                        <a href="mailto:support@connectia.in?subject=Graphic%20Design%20and%20UI/UX" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
+                                        <a href="web-design.php" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
                                             <span>Design something unforgettable →</span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-0 mt-lg-5 pt-0 pt-lg-5">
-                            <div class="col-12">
+                        <div class="col">
+                            <div class="col-12 h-100">
                                 <div class="bg-official-card h-100 p-4">
                                     <div class="d-flex flex-column justify-content-between gap-3 h-100">
                                         <div>
-                                            <img loading="lazy" src="/static/images/software-developement/service-2.png" class="img-fluid" alt="Software Testing">
                                             <h3 class="font-700 font-manrope text-white fs-5 mt-3">Software Testing</h3>
                                             <p class="font-roboto-slab lh-lg font-15px font-400 text-lighter">Found a bug after launch? Everyone has — and it's never cheap. Our software testing and QA catches what shouldn't ship, before your customers find it for you.</p>
                                             <ul class="list-unstyled d-flex flex-column gap-2 my-3 font-roboto-slab font-14px text-lighter opacity-0.9">
@@ -732,12 +714,11 @@ include 'admin/app/security/csrf.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-0 mt-lg-3 pt-0 pt-lg-3">
-                            <div class="col-12">
+                        <div class="col">
+                            <div class="col-12 h-100">
                                 <div class="bg-official-card h-100 p-4">
                                     <div class="d-flex flex-column justify-content-between gap-3 h-100">
                                         <div>
-                                            <img loading="lazy" src="/static/images/services/mobileapp.png" class="img-fluid" alt="App Design and Development">
                                             <h3 class="font-700 font-manrope text-white fs-5 mt-3">App Design and Development</h3>
                                             <p class="font-roboto-slab lh-lg font-15px font-400 text-lighter">Got an app idea you keep putting off? We turn it into something people actually download and keep. Mobile app development for iOS and Android, built to feel native and move fast — from first sketch to app store.</p>
                                             <ul class="list-unstyled d-flex flex-column gap-2 my-3 font-roboto-slab font-14px text-lighter opacity-0.9">
@@ -755,19 +736,18 @@ include 'admin/app/security/csrf.php';
                                                 </li>
                                             </ul>
                                         </div>
-                                        <a href="mailto:support@connectia.in?subject=App%20Design%20and%20Development" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
+                                        <a href="mobile-application.php" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
                                             <span>Build your app →</span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-0 mt-lg-1 pt-0 pt-lg-1">
-                            <div class="col-12">
+                        <div class="col">
+                            <div class="col-12 h-100">
                                 <div class="bg-official-card h-100 p-4">
                                     <div class="d-flex flex-column justify-content-between gap-3 h-100">
                                         <div>
-                                            <img loading="lazy" src="/static/images/icons/locker.png" style="max-height: 48px; width: auto;" alt="Cybersecurity">
                                             <h3 class="font-700 font-manrope text-white fs-5 mt-3">Cybersecurity</h3>
                                             <p class="font-roboto-slab lh-lg font-15px font-400 text-lighter">Ever wonder if your business is one bad email away from a very bad day? Most are. Our cybersecurity services find the gaps before someone else does — audits, monitoring, and response, all on call.</p>
                                             <ul class="list-unstyled d-flex flex-column gap-2 my-3 font-roboto-slab font-14px text-lighter opacity-0.9">
@@ -792,12 +772,11 @@ include 'admin/app/security/csrf.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-0 mt-lg-5 pt-0 pt-lg-5">
-                            <div class="col-12">
+                        <div class="col">
+                            <div class="col-12 h-100">
                                 <div class="bg-official-card h-100 p-4">
                                     <div class="d-flex flex-column justify-content-between gap-3 h-100">
                                         <div>
-                                            <img loading="lazy" src="/static/images/services/software-development.png" class="img-fluid" alt="Email and Hosting">
                                             <h3 class="font-700 font-manrope text-white fs-5 mt-3">Email and Hosting</h3>
                                             <p class="font-roboto-slab lh-lg font-15px font-400 text-lighter">Sick of "the server's down" being a sentence you hear? Us too. We handle business email hosting and web hosting built for real uptime — dedicated or shared, sized to what you actually need.</p>
                                             <ul class="list-unstyled d-flex flex-column gap-2 my-3 font-roboto-slab font-14px text-lighter opacity-0.9">
@@ -815,19 +794,18 @@ include 'admin/app/security/csrf.php';
                                                 </li>
                                             </ul>
                                         </div>
-                                        <a href="mailto:support@connectia.in?subject=Email%20and%20Hosting" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
+                                        <a href="server-hosting.php" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
                                             <span>Get hosted properly →</span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-0 mt-lg-3 pt-0 pt-lg-3">
-                            <div class="col-12">
+                        <div class="col">
+                            <div class="col-12 h-100">
                                 <div class="bg-official-card h-100 p-4">
                                     <div class="d-flex flex-column justify-content-between gap-3 h-100">
                                         <div>
-                                            <img loading="lazy" src="/static/images/technical-support/image.png" class="img-fluid" alt="Technical Support">
                                             <h3 class="font-700 font-manrope text-white fs-5 mt-3">Technical Support</h3>
                                             <p class="font-roboto-slab lh-lg font-15px font-400 text-lighter">Ever been on hold with "IT support" that never actually helps? Ours picks up. Round-the-clock technical support that catches small issues before they become your whole afternoon.</p>
                                             <ul class="list-unstyled d-flex flex-column gap-2 my-3 font-roboto-slab font-14px text-lighter opacity-0.9">
@@ -845,19 +823,18 @@ include 'admin/app/security/csrf.php';
                                                 </li>
                                             </ul>
                                         </div>
-                                        <a href="mailto:support@connectia.in?subject=Technical%20Support" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
+                                        <a href="technical-support.php" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
                                             <span>Get support that responds →</span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-0 mt-lg-1 pt-0 pt-lg-1">
-                            <div class="col-12">
+                        <div class="col">
+                            <div class="col-12 h-100">
                                 <div class="bg-official-card h-100 p-4">
                                     <div class="d-flex flex-column justify-content-between gap-3 h-100">
                                         <div>
-                                            <img loading="lazy" src="/static/images/software-developement/service-3.png" class="img-fluid" alt="Data Protection">
                                             <h3 class="font-700 font-manrope text-white fs-5 mt-3">Data Protection</h3>
                                             <p class="font-roboto-slab lh-lg font-15px font-400 text-lighter">Think your data's safe until the day it isn't? Most people do. We build data protection and backup systems for a world where loss isn't a maybe — automated backups, encryption, and compliance support included.</p>
                                             <ul class="list-unstyled d-flex flex-column gap-2 my-3 font-roboto-slab font-14px text-lighter opacity-0.9">
