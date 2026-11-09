@@ -16,15 +16,14 @@
                          <div>
                              <ul class="list-none list-outside p-0 d-flex flex-column gap-3">
                                  <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/software-development.php">Software Development</a></li>
-                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/web-development.php">Web Application Development</a></li>
-                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/web-design.php">Website Design</a></li>
-                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/mobile-application.php">Mobile Application Development</a></li>
-                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/digital-marketing.php">Digital Marketing</a></li>
-                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/email-providers.php">E-Mail Services</a></li>
-                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/server-hosting.php">Server & Hosting</a></li>
+                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/web-development.php">Website Development</a></li>
+                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/web-design.php">Graphic Design, UI/UX</a></li>
+                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/software-testing.php">Software Testing</a></li>
+                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/mobile-application.php">App Design and Development</a></li>
+                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/cybersecurity.php">Cybersecurity</a></li>
+                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/server-hosting.php">Email and Hosting</a></li>
                                  <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/technical-support.php">Technical Support</a></li>
-                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/printing-service.php">Printing Services</a></li>
-                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/it-recruitment.php">IT Recruitment & Consultation</a></li>
+                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/data-protection.php">Data Protection</a></li>
                              </ul>
                          </div>
                      </div>
