@@ -61,7 +61,7 @@
                 <div class="col-12 col-lg-5">
                     <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-capitalize">Software development built around how your business actually runs</h2>
                     <p class="text-justify font-500 text-light-black font-16px opacity-0.8">Tired of software that almost fits? That "we'll just work around it" feeling gets old fast. We build custom software around how your business actually runs &mdash; not the other way around. Scalable, secure, and built to grow with you instead of holding you back.</p>
-                    <a href="/contact">
+                    <a href="contact.php">
                     <button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">Start your build &rarr;</button>
                     </a>
                 </div>

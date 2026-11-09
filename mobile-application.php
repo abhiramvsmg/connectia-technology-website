@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Application</title>
+    <title>App Design and Development | Connectia Technology</title>
 
-    <meta name="description" content="Connectia Infotech in Karnataka, India offers mobile app development services. We create high-performance iOS and Android apps to enhance user engagement." />
+    <meta name="description" content="Mobile app development for iOS and Android from Connectia Technology, built to feel native and move fast, from first sketch to app store." />
     <meta name="keywords" content="Mobile App Development Company, iOS & Android Apps - Connectia Infotech, Karnataka, India" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -47,10 +47,10 @@
         <div class="container">
             <div class="row align-items-center g-4 mx-0 mx-lg-5">
                 <div class="col-12 col-lg-5">
-                    <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-capitalize">Mobile App development in Karnataka, India</h2>
-                    <p class="text-justify font-500 text-light-black font-16px opacity-0.8">We work with your ideas to originate a new level by customizing the apps which will be catering to the niche area.</p>
-                    <a href="/contact">
-                    <button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">Contact Us</button>
+                    <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-capitalize">Apps people actually download and keep</h2>
+                    <p class="text-justify font-500 text-light-black font-16px opacity-0.8">Got an app idea you keep putting off? We turn it into something people actually download and keep. Mobile app development for iOS and Android, built to feel native and move fast &mdash; from first sketch to app store.</p>
+                    <a href="contact.php">
+                    <button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">Build your app &rarr;</button>
                     </a>
                 </div>
                 <div class="col-12 col-lg-6">

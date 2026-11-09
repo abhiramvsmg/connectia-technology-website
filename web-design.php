@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Design</title>
-    <meta name="description" content="Connectia Infotech in Karnataka, India provides professional website design services. We create modern, responsive, and user-friendly websites for businesses." />
+    <title>Graphic Design, UI/UX | Connectia Technology</title>
+    <meta name="description" content="Brand identities and interfaces people actually enjoy using, designed by Connectia Technology in Karnataka, India." />
     <meta name="keywords" content="Website Design Company,Modern & Responsive Designs - Connectia Infotech, Karnataka, India" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,10 +45,10 @@
         <div class="container">
             <div class="row align-items-center g-4 mx-0 mx-lg-5">
                 <div class="col-12 col-lg-5">
-                    <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-capitalize">Website Design in Karnataka, India</h2>
-                    <p class="text-justify font-500 text-light-black font-16px opacity-0.8">we are looking forward to building a long-lasting relationship with you, if you succeed, we succeed.</p>
-                    <a href="/contact">
-                    <button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">Contact Us</button>
+                    <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-capitalize">Brand identities and interfaces people actually enjoy using</h2>
+                    <p class="text-justify font-500 text-light-black font-16px opacity-0.8">Ever land on a site and think, &quot;who made this?&quot; &mdash; in a good way? That's what good UI/UX and graphic design does. We design brand identities and interfaces people actually enjoy using, grounded in how people really click, scroll, and decide.</p>
+                    <a href="contact.php">
+                    <button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">Design something unforgettable &rarr;</button>
                     </a>
                 </div>
                 <div class="col-12 col-lg-6">

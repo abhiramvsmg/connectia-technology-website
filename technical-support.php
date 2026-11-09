@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technical Support</title>
+    <title>Technical Support | Connectia Technology</title>
 
 
-    <meta name="description" content="Connectia has quite a wealth of technical knowledge and is always striving to provide the best equipment for its clients with service centers in Karnataka, India" />
+    <meta name="description" content="Round-the-clock technical support from Connectia Technology that catches small issues before they become big ones." />
 
     <meta name="keywords" content="Connectia Technology, technical service providers, call center service providers, technical service providers in Karnataka, India, technical support service companies in Karnataka, India, call center service providers in Karnataka, India" />
 
@@ -47,10 +47,10 @@
         <div class="container">
             <div class="row align-items-center g-4 mx-0 mx-lg-5">
                 <div class="col-12 col-lg-5">
-                    <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-capitalize">Technical Support in Karnataka, India</h2>
-                    <p class="text-justify font-500 text-light-black font-16px opacity-0.8">We offer technical support services and ensure the integrity of your confidential data.</p>
-                    <a href="/contact">
-                    <button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">Contact Us</button>
+                    <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-capitalize">Round-the-clock support that catches small issues early</h2>
+                    <p class="text-justify font-500 text-light-black font-16px opacity-0.8">Ever been on hold with &quot;IT support&quot; that never actually helps? Ours picks up. Round-the-clock technical support that catches small issues before they become your whole afternoon.</p>
+                    <a href="contact.php">
+                    <button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">Get support that responds &rarr;</button>
                     </a>
                 </div>
                 <div class="col-12 col-lg-6">
