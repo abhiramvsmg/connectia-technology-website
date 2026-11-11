@@ -57,18 +57,14 @@
         </div>
         <div class="container">
             <div class="row align-items-center g-4 mx-0 mx-lg-5">
-                <div class="col-12 col-lg-8">
+                <div class="col-12 col-lg-7">
                     <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-capitalize">Find the gaps before someone else does</h2>
                     <p class="text-justify font-500 text-light-black font-16px opacity-0.8">Ever wonder if your business is one bad email away from a very bad day? Most are. Our cybersecurity services find the gaps before someone else does &mdash; audits, monitoring, and response, all on call.</p>
-                    <ul class="list-unstyled d-flex flex-column gap-2 my-4 font-16px text-light-black">
-<li class="d-flex align-items-start gap-2"><span style="color:#0099bd;font-weight:bold;">&#10003;</span><span>Security audits and vulnerability testing</span></li>
-<li class="d-flex align-items-start gap-2"><span style="color:#0099bd;font-weight:bold;">&#10003;</span><span>Network and endpoint protection</span></li>
-<li class="d-flex align-items-start gap-2"><span style="color:#0099bd;font-weight:bold;">&#10003;</span><span>24/7 threat monitoring</span></li>
-                    </ul>
                     <a href="contact.php">
                     <button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">Secure your business &rarr;</button>
                     </a>
                 </div>
+                <div class="col-12 col-lg-4"><div class="d-flex align-items-center justify-content-center rounded-4 p-5" style="background: linear-gradient(135deg, #076baa, #0099bd); min-height: 260px;"><svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5l8-3z"/><path d="M8.5 12l2.5 2.5L16 9.5"/></svg></div></div>
                 
             </div>
         </div>
@@ -363,6 +359,11 @@
             </svg>
         </div>
     </div>
+    <?php
+    $sd_name = "Cybersecurity";
+    $sd_bullets = ["Security audits and vulnerability testing", "Network and endpoint protection", "24/7 threat monitoring"];
+    include 'partials/service-detail.php';
+    ?>
     <?php
     include 'partials/contactnow.php';
     ?>

@@ -57,18 +57,14 @@
         </div>
         <div class="container">
             <div class="row align-items-center g-4 mx-0 mx-lg-5">
-                <div class="col-12 col-lg-8">
+                <div class="col-12 col-lg-7">
                     <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-capitalize">Backup, encryption and compliance, built in</h2>
                     <p class="text-justify font-500 text-light-black font-16px opacity-0.8">Think your data's safe until the day it isn't? Most people do. We build data protection and backup systems for a world where loss isn't a maybe &mdash; automated backups, encryption, and compliance support included.</p>
-                    <ul class="list-unstyled d-flex flex-column gap-2 my-4 font-16px text-light-black">
-<li class="d-flex align-items-start gap-2"><span style="color:#0099bd;font-weight:bold;">&#10003;</span><span>Automated backup and disaster recovery</span></li>
-<li class="d-flex align-items-start gap-2"><span style="color:#0099bd;font-weight:bold;">&#10003;</span><span>Encryption at rest and in transit</span></li>
-<li class="d-flex align-items-start gap-2"><span style="color:#0099bd;font-weight:bold;">&#10003;</span><span>Compliance support built in</span></li>
-                    </ul>
                     <a href="contact.php">
                     <button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">Protect your data &rarr;</button>
                     </a>
                 </div>
+                <div class="col-12 col-lg-4"><div class="d-flex align-items-center justify-content-center rounded-4 p-5" style="background: linear-gradient(135deg, #076baa, #0099bd); min-height: 260px;"><svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></div></div>
                 
             </div>
         </div>
@@ -363,6 +359,11 @@
             </svg>
         </div>
     </div>
+    <?php
+    $sd_name = "Data Protection";
+    $sd_bullets = ["Automated backup and disaster recovery", "Encryption at rest and in transit", "Compliance support built in"];
+    include 'partials/service-detail.php';
+    ?>
     <?php
     include 'partials/contactnow.php';
     ?>
