@@ -241,8 +241,6 @@ include 'admin/app/security/csrf.php';
                                 <div class="d-flex gap-3 flex-column align-items-start justify-content-center h-100 ps-2 ps-lg-5 mx-2 mx-lg-5">
                                    <h1 class="font-700 text-light-black font-size-2xl font-4-ls-0.5px lh-sm">
     The upgrade your business has been waiting for.</h1>
-<p class="font-400 text-light-black opacity-0.8 line-height-26px font-16px w-75">
-    Whatever brought you here — a slow website, a security scare, an app idea sitting in your notes app for six months — chances are, it's on this list. Connectia builds and runs the tech stack so you can stop stitching one together yourself.</p>
     <div class="col-12 col-lg-10">
         <form action="admin/api/bookdemo.php?q=save" method="POST" class="input-group flex-nowrap rounded-3 shadow-1 py-2 px-2 w-fit">
                                             <input type="hidden" name="token" value="<?= Csrf::get() ?>">
