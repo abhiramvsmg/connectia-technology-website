@@ -381,7 +381,7 @@
                         <div class="col-12 col-lg-10 mb-3">
                             <div class="d-flex flex-column justify-content-between gap-2 h-100">
                                 <h1 class="text-009bbd font-600 fs-6">Service</h1>
-                                <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-uppercase">WEBSITE DESIGN
+                                <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-uppercase">GRAPHIC DESIGN, UI/UX
                                 </h2>
                                 <p class="text-justify font-500 text-light-black font-16px opacity-0.8">We Make usability The Utmost priority and create an intuitive experience for the users for longing into their outlook by understanding and researching the psyche of a different mindset, and Use audience persona research, proven strategies, experienced design to validate concepts with real-world users. Putting your mission at the core of a fluid, user-friendly Web design that will help you reach your objectives.</p>
                                 <p class="text-justify font-500 text-light-black font-16px opacity-0.8">Our method has been refined over years of creating user-friendly experiences and interfaces. Working with inspirational brands to help them bring their vision to life and change the way people think about them. We outline purposeful product strategies and create aesthetic experiences using a disciplined understanding of the mind. We're driven to improve the human relationship with technology by developing and building meaningful connections between companies and their customers, regardless of industry, device, goal, or technology platform. At connectia, we create designs with passion.</p>

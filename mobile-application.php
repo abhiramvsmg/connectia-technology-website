@@ -97,7 +97,7 @@
                         <div class="col-12 col-lg-10 mb-3">
                             <div class="d-flex flex-column justify-content-between gap-2 h-100">
                                 <h1 class="text-009bbd font-600 fs-6">Service</h1>
-                                <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-uppercase">MOBILE APPLICATION
+                                <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-uppercase">APP DESIGN AND DEVELOPMENT
                                 </h2>
                                 <p class="text-justify font-500 text-light-black font-16px opacity-0.8">At Connectia, we create apps that help our clients to make a positive impact on the world. Our mobile app development team specializes in native and hybrid solutions that reach millions of people, transform people's perspectives, and set the bar for industry innovation. We transform your app development concept into a world-class solution. Global brands and disruptive startups entrust us with providing world-class mobile experiences across numerous devices.</p>
                                 <p class="text-justify font-500 text-light-black font-16px opacity-0.8">Our knowledge spans the full app development lifecycle, from wireframing and design to development, release, and maintenance. What makes us a renowned app development firm is our core philosophy in employing technology to address large challenges.</p>

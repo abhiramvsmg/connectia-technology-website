@@ -88,7 +88,7 @@
                         <div class="col-12 col-lg-10 mb-3">
                             <div class="d-flex flex-column justify-content-between gap-2 h-100">
                                 <h1 class="text-009bbd font-600 fs-6">Service</h1>
-                                <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-uppercase">SERVER & HOSTING
+                                <h2 class="font-700 text-light-black font-3 -ls-0.5px lh-sm text-uppercase">EMAIL AND HOSTING
                                 </h2>
                                 <p class="text-justify font-500 text-light-black font-16px opacity-0.8">Every day, we devote our enthusiasm, devotion, and skill to maintaining the websites of our Clients. We enjoy what we do and are driven to provide exceptional service. Having partnered with Hostgator, AWS, Google Workspace, etc. We believe in “Give your company the power it deserves”.</p>
                                 <p class="text-justify font-500 text-light-black font-16px opacity-0.8">Having Full root access gives you complete control over your hosting environment, including custom installations and configurations. Numerous layers of network security and multiple bandwidth providers are used to ensure maximum server stability. Begin small and expand your hosting as your company grows.</p>
