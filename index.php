@@ -859,15 +859,13 @@ include 'admin/app/security/csrf.php';
                                 </div>
                             </div>
                         </div>
-                    <div class="row mt-4">
-                        <div class="col-12">
-                            <div class="p-4 p-lg-5 rounded-3" style="background:#f1f6fd;">
+                    <div class="w-100 mt-2 mb-4 mb-lg-5">
+                        <div class="p-4 p-lg-5 rounded-3 d-flex flex-column flex-lg-row justify-content-between align-items-lg-center gap-4" style="background:#f1f6fd;">
+                            <div>
                                 <h3 class="font-manrope font-700 text-light-black">So, where does it hurt?</h3>
-                                <p class="font-400 text-light-black opacity-0.8 line-height-26px font-16px mb-3">
-                                    Slow site, security worry, an app that's overdue — tell us what's actually going on. We'll tell you what to fix first.
-                                </p>
-                                <a href="mailto:support@connectia.in?subject=How%20can%20Connectia%20help%3F" class="btn text-white rounded-sm py-2 px-4" style="background:linear-gradient(90deg,#076baa,#0099bd);">Talk to Connectia</a>
+                                <p class="font-400 text-light-black opacity-0.8 line-height-26px font-16px mb-0">Slow site, security worry, an app that's overdue &mdash; tell us what's actually going on. We'll tell you what to fix first.</p>
                             </div>
+                            <a href="mailto:support@connectia.in?subject=How%20can%20Connectia%20help%3F" class="btn text-white rounded-sm py-2 px-4 w-max text-nowrap" style="background:linear-gradient(90deg,#076baa,#0099bd);">Talk to Connectia &rarr;</a>
                         </div>
                     </div>
                 </div>
