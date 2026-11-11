@@ -580,6 +580,11 @@
     </div>
 
     <?php
+    $sd_name = "Website Development";
+    $sd_bullets = ["Mobile-first, built to load fast", "SEO baked in, not bolted on later", "Clean, no-bloat code"];
+    include 'partials/service-detail.php';
+    ?>
+    <?php
     include 'partials/contactnow.php';
     ?>
     <?php

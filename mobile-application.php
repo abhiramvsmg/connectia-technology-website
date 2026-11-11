@@ -282,6 +282,11 @@
         </div>
     </div>
     <?php
+    $sd_name = "App Design and Development";
+    $sd_bullets = ["Native and cross-platform builds", "UX designed for thumbs, not mice", "Support that doesn't disappear after launch"];
+    include 'partials/service-detail.php';
+    ?>
+    <?php
     include 'partials/contactnow.php';
     ?>
     <?php

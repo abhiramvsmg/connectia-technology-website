@@ -566,6 +566,11 @@
         </div>
     </div>
     <?php
+    $sd_name = "Graphic Design, UI/UX";
+    $sd_bullets = ["Brand identity that's actually memorable", "UX based on real behavior, not guesswork", "Wireframes and prototypes before a line of code"];
+    include 'partials/service-detail.php';
+    ?>
+    <?php
     include 'partials/contactnow.php';
     ?>
     <?php

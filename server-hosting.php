@@ -273,6 +273,11 @@
         </div>
     </div>
     <?php
+    $sd_name = "Email and Hosting";
+    $sd_bullets = ["Professional email on your own domain", "Dedicated and shared hosting", "Uptime you can actually count on"];
+    include 'partials/service-detail.php';
+    ?>
+    <?php
     include 'partials/contactnow.php';
     ?>
     <?php

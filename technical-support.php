@@ -278,6 +278,11 @@
         </div>
     </div>
     <?php
+    $sd_name = "Technical Support";
+    $sd_bullets = ["24/7 monitoring and support", "Remote and on-site help", "Fixes before they become fires"];
+    include 'partials/service-detail.php';
+    ?>
+    <?php
     include 'partials/contactnow.php';
     ?>
     <?php
