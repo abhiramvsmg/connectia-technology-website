@@ -705,7 +705,7 @@ include 'admin/app/security/csrf.php';
                                                 </li>
                                             </ul>
                                         </div>
-                                        <a href="mailto:support@connectia.in?subject=Software%20Testing" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
+                                        <a href="software-testing.php" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
                                             <span>Test before you launch →</span>
                                         </a>
                                     </div>
@@ -763,7 +763,7 @@ include 'admin/app/security/csrf.php';
                                                 </li>
                                             </ul>
                                         </div>
-                                        <a href="mailto:support@connectia.in?subject=Cybersecurity" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
+                                        <a href="cybersecurity.php" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
                                             <span>Secure your business →</span>
                                         </a>
                                     </div>
@@ -850,7 +850,7 @@ include 'admin/app/security/csrf.php';
                                                 </li>
                                             </ul>
                                         </div>
-                                        <a href="mailto:support@connectia.in?subject=Data%20Protection" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
+                                        <a href="data-protection.php" class="text-decoration-none font-roboto-slab font-400 text-white d-flex gap-2 align-items-center font-16px my-2">
                                             <span>Protect your data →</span>
                                         </a>
                                     </div>
