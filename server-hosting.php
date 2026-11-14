@@ -55,6 +55,7 @@
         </div>
 
     </div>
+    <div class="d-none d-lg-block" style="height:140px;"></div>
     <?php
     $sd_name = "Email and Hosting";
     $sd_bullets = ["Professional email on your own domain", "Dedicated and shared hosting", "Uptime you can actually count on"];
