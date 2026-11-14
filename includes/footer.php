@@ -24,6 +24,7 @@
                                  <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/server-hosting.php">Email and Hosting</a></li>
                                  <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/technical-support.php">Technical Support</a></li>
                                  <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/data-protection.php">Data Protection</a></li>
+                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/digital-marketing.php">Digital Marketing</a></li>
                              </ul>
                          </div>
                      </div>

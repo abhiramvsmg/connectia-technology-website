@@ -115,8 +115,6 @@ By using our services, you acknowledge that all services are provided on a best-
                             2. Information We Collect:<br>
                             - We may collect and process personal information, including but not limited to:<br>
                             - Contact details (name, address, email, phone number).<br>
-                            - Identification information (government-issued ID, passport, Aadhar card).<br>
-                            - Financial information (credit card details, bank account information).<br>
                             - User account data (username, password).<br>
 
 
