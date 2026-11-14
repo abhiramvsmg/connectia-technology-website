@@ -118,7 +118,7 @@
     </div>
     <div class="py-4 py-lg-5" style="background:#f4f9fc;">
         <div class="container">
-            <div class="mx-0 mx-lg-5">
+            <div class="mx-0 mx-lg-5" style="padding-left:12px;padding-right:12px;">
                 <div class="text-capitalize font-2.5 font-700 text-light-black mb-4">What we actually believe</div>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col"><div class="bg-official-card h-100 p-4"><h3 class="font-700 font-manrope text-white fs-5">Simple is underrated.</h3><p class="font-roboto-slab lh-lg font-15px font-400 text-lighter mb-0 mt-3">Anyone can make things complicated. We&rsquo;d rather build the version that works, makes sense, and doesn&rsquo;t need a manual.</p></div></div>
@@ -139,7 +139,7 @@
                     <div class="text-capitalize font-2.5 font-700 text-light-black mb-4">Where we&rsquo;re headed</div>
                     <p class="font-500 text-light-black opacity-0.8 lh-base font-18px">We&rsquo;ve spent a decade building for businesses that wanted a partner, not a project timeline. Now we&rsquo;re doing it for a bigger map &mdash; more industries, more regions, the same standard. If you&rsquo;re building something that matters, we want to be the team behind it.</p>
                 </div>
-                <div class="col-12 d-flex flex-wrap gap-3">
+                <div class="col-12 d-flex flex-wrap justify-content-center gap-3">
                     <a href="index.php#services"><button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">See what we do &rarr;</button></a>
                     <a href="contact.php"><button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">Get in touch &rarr;</button></a>
                 </div>
