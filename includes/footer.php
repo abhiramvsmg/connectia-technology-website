@@ -103,18 +103,6 @@
                                              <a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="mailto:support@connectia.in">support@connectia.in </a>
                                          </div>
                                      </div><br>
-                                     <div class="d-flex gap-2">
-                                         <div class="ps-1">
-                                             <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                 <path d="M0.902801 1.53985C3.47947 3.53167 8.00071 7.03588 9.32956 8.1285C9.50795 8.27597 9.69929 8.35094 9.89792 8.35094C10.0961 8.35094 10.2871 8.27667 10.4651 8.1299C11.7951 7.03621 16.3164 3.53167 18.8931 1.53985C19.0535 1.41608 19.078 1.19853 18.9481 1.04721C18.6478 0.697554 18.2002 0.49707 17.7204 0.49707H2.07541C1.59568 0.49707 1.148 0.697554 0.847799 1.04725C0.717921 1.19853 0.742379 1.41608 0.902801 1.53985Z" fill="#076baa" />
-                                                 <path d="M19.0579 2.61727C18.9193 2.55836 18.7562 2.57891 18.6408 2.66888C15.7834 4.87995 12.1364 7.7141 10.989 8.65785C10.345 9.18847 9.45123 9.18847 8.80572 8.65714C7.58269 7.65131 3.48731 4.47343 1.15471 2.66885C1.03858 2.57888 0.875113 2.55903 0.737608 2.61723C0.599369 2.67584 0.510742 2.80205 0.510742 2.94115V11.9194C0.510742 12.707 1.21239 13.3475 2.07526 13.3475H17.7203C18.5832 13.3475 19.2848 12.707 19.2848 11.9194V2.94115C19.2848 2.80205 19.1962 2.67551 19.0579 2.61727Z" fill="#076baa" />
-                                             </svg>
-                                         </div>
-                                         <div>
-                                             <a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="mailto:hr@connectiasolutions.in">hr@connectiasolutions.in</a>
-                                         </div>
-
-                                     </div>
                                      <div class="mt-4">
                                          <!--<p class="text-light-black text-justify opacity-0.7 font-16 font-400">With the goal of providing end-to-end services for small, medium, and larger-scale businesses and organizations, with Software development, Web design & development, Digital Marketing & Branding. thus Connectia Technology was Branded in Mangalore, India</p>-->
                                          <!--<a href="https://www.facebook.com/Connectia-Technology-111587771308987" target="_blank" rel="noopener">-->
