@@ -108,7 +108,7 @@
                     <div class="text-capitalize font-2.5 font-700 text-light-black mb-4">Our Story</div>
                     <p class="font-500 text-light-black opacity-0.8 lh-base font-18px">Back in 2014, Connectia started the way most good ideas do &mdash; with a small team that thought technology partners could actually be, well, partners. Not a vendor who disappears after the invoice. Not a call center reading from a script. A team that sticks around, knows your business, and actually picks up the phone.</p>
                     <p class="font-500 text-light-black opacity-0.8 lh-base font-18px">Ten years, 100+ businesses, and three countries later, that&rsquo;s still the whole idea.</p>
-                    <a href="contact.php"><button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">Let&rsquo;s talk &rarr;</button></a>
+                    <a href="contact.php" class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600 text-decoration-none" style="background: linear-gradient(90deg, #076baa, #0099bd);">Let&rsquo;s talk &rarr;</a>
                 </div>
                 <div class="col-12 col-lg-5">
                     <img loading="lazy" src="/static/images/logo/connectia-logo-xl.png" class="img-fluid" alt="Connectia Technology">
@@ -139,9 +139,8 @@
                     <div class="text-capitalize font-2.5 font-700 text-light-black mb-4">Where we&rsquo;re headed</div>
                     <p class="font-500 text-light-black opacity-0.8 lh-base font-18px">We&rsquo;ve spent a decade building for businesses that wanted a partner, not a project timeline. Now we&rsquo;re doing it for a bigger map &mdash; more industries, more regions, the same standard. If you&rsquo;re building something that matters, we want to be the team behind it.</p>
                 </div>
-                <div class="col-12 d-flex flex-wrap justify-content-center gap-3">
-                    <a href="index.php#services"><button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">See what we do &rarr;</button></a>
-                    <a href="contact.php"><button class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600" style="background: linear-gradient(90deg, #076baa, #0099bd);">Get in touch &rarr;</button></a>
+                <div class="col-12 d-flex justify-content-center">
+                    <a href="index.php#services" class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600 text-decoration-none" style="background: linear-gradient(90deg, #076baa, #0099bd);">See what we do &rarr;</a>
                 </div>
             </div>
         </div>

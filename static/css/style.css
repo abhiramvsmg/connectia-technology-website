@@ -42,6 +42,11 @@ body {
 .bg-official-card {
   background: linear-gradient(90deg, var(--official));
   border-radius: 16px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.bg-official-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(7, 107, 170, 0.22);
 }
 .bg-dark-black {
   background-color: var(--dark-black);
@@ -153,8 +158,26 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
 }
 
+#services,
 section[id] {
   scroll-margin-top: 90px;
+}
+
+.service-card-icon-wrap {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  flex-shrink: 0;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+.bg-official-card:hover .service-card-icon-wrap {
+  background: rgba(255, 255, 255, 0.22);
+  transform: scale(1.05);
 }
 
 .bg-dark-blue-50::before {
