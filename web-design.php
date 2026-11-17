@@ -349,6 +349,7 @@
             </svg>
         </div>
     </div>
+    <div class="d-none d-lg-block sd-gap" style="height:160px;"></div>
     <?php
     $sd_name = "Graphic Design, UI/UX";
     $sd_bullets = ["Brand identity that's actually memorable", "UX based on real behavior, not guesswork", "Wireframes and prototypes before a line of code"];
