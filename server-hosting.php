@@ -35,7 +35,7 @@
     include 'includes/navbar.php';
     ?>
     <!-- header code end here -->
-    <div class="py-3 py-lg-5 my-0 my-lg-5 position-relative">
+    <div class="sd-hero py-3 py-lg-5 my-0 my-lg-5 position-relative">
 
         <div class="container">
             <div class="row align-items-center g-4 mx-0 mx-lg-5">
@@ -55,8 +55,7 @@
         </div>
 
     </div>
-    <div class="d-none d-lg-block" style="height:140px;"></div>
-    <?php
+<?php
     $sd_name = "Email and Hosting";
     $sd_bullets = ["Professional email on your own domain", "Dedicated and shared hosting", "Uptime you can actually count on"];
     include 'partials/service-detail.php';

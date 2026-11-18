@@ -509,3 +509,43 @@ section[id] {
     line-height: 1.7;
     margin-bottom: 0;
 }
+
+/* ===== Typography update: readability, sentence-case section headings ===== */
+body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+p { font-size: 1.125rem !important; line-height: 1.75 !important; }
+.font-14px, ul.font-14px li { font-size: 1rem !important; }
+.font-15px { font-size: 1.0625rem !important; }
+strong, b { font-weight: 700; }
+h3, h4 { font-weight: 700; }
+.opacity-0\.7, .opacity-0\.8 { opacity: 0.92 !important; }
+.text-lighter { color: #f4fbff !important; }
+.text-uppercase { text-transform: none !important; }
+.btn.text-uppercase, button.text-uppercase { text-transform: uppercase !important; }
+div.text-capitalize, h3.text-capitalize, h4.text-capitalize, span.text-capitalize { text-transform: none !important; }
+.font-manrope.text-uppercase { font-size: 1.15rem; font-weight: 700; }
+@media (max-width: 575.98px) { p { font-size: 1.0625rem !important; } }
+
+/* ===== Typography update 2: darker, slightly heavier text; alignment safety ===== */
+.text-light-black, .light-black { color: #07122b !important; }
+p.text-light-black, .text-light-black p { font-weight: 600 !important; }
+.opacity-0\.7, .opacity-0\.8 { opacity: 1 !important; }
+h1, h2, h3, h4, h5, h6, p, li, a, span, div { overflow-wrap: break-word; }
+@media (max-width: 767.98px) { .text-justify { text-align: left !important; } }
+
+/* ===== Service pages: one consistent hero frame ===== */
+.sd-hero { margin-top: 0 !important; margin-bottom: 0 !important; display: flex; align-items: center; }
+.sd-hero > .container { width: 100%; }
+.sd-hero .row { align-items: center; }
+.sd-hero img.img-fluid { display: block; margin-left: auto; margin-right: auto; width: auto; max-width: 100%; max-height: 420px; object-fit: contain; }
+@media (min-width: 992px) { .sd-hero { min-height: calc(100vh - 120px); padding-top: 2rem !important; padding-bottom: 2rem !important; } }
+
+/* ===== Service heroes: top-aligned, equal columns, same start height ===== */
+.sd-hero { align-items: flex-start !important; }
+.sd-hero p { text-align: left !important; margin-bottom: 1.5rem; }
+.sd-hero h2 { margin-bottom: 1.25rem; }
+@media (min-width: 992px) {
+  .sd-hero { padding-top: 5rem !important; min-height: calc(100vh - 120px); }
+  .sd-hero .row.align-items-center { align-items: flex-start !important; }
+  .sd-hero .row > div:first-child, .sd-hero .row > div:last-child { flex: 0 0 auto; width: 50%; }
+  .sd-hero .row > div:last-child { display: flex; justify-content: center; }
+}

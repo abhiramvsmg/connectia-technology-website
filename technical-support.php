@@ -32,7 +32,7 @@
     include 'includes/navbar.php';
     ?>
     <!-- header code end here -->
-    <div class="py-3 py-lg-5 my-0 my-lg-5 position-relative">
+    <div class="sd-hero py-3 py-lg-5 my-0 my-lg-5 position-relative">
         <div class="position-absolute start-0 top-0">
             <svg class="opacity-0.1-sm" width="34" height="127" viewBox="0 0 34 127" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M-29.6749 126.924C-21.3409 126.942 -13.0851 125.318 -5.37879 122.145C2.32753 118.972 9.33341 114.312 15.2389 108.431C21.1443 102.551 25.8337 95.5645 29.0392 87.8717C32.2447 80.1788 33.9036 71.9299 33.9212 63.596C33.9388 55.262 32.3147 47.0062 29.1417 39.2998C25.9687 31.5935 21.3089 24.5876 15.4283 18.6822C9.54773 12.7767 2.56158 8.08739 -5.13128 4.88187C-12.8241 1.67634 -21.073 0.0174246 -29.407 -0.000165922L-29.6749 126.924Z" fill="url(#paint0_linear_64_226)" />
