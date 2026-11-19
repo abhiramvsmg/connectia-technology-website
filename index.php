@@ -285,6 +285,7 @@ include 'admin/app/security/csrf.php';
                 </div>
             </div>
         </div>
+    </div>
     
     <div class="py-4 text-white bg-dark-blue-50" style="background-color:#f1f6fd">
         <div class="container">
