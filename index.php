@@ -255,15 +255,31 @@ include 'admin/app/security/csrf.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 d-none d-lg-block">
-                    <!-- Video Section (Autoplay muted loop playsinline) -->
-                    <div class="d-flex justify-content-center align-items-center h-100">
-                        <?php if (file_exists('static/videos/connectia-hero.mp4')) { ?>
-                            <video autoplay muted loop playsinline class="img-fluid rounded-3 shadow" style="max-height: 400px; width: 100%; object-fit: cover;">
-                                <source src="/static/videos/connectia-hero.mp4" type="video/mp4">
+                <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                    <!-- Homepage Hero Video Section (Autoplay without sound per CT.txt & HR guidelines) -->
+                    <div class="d-flex justify-content-center align-items-center h-100 px-2 px-lg-0">
+                        <?php
+                        $hero_video = null;
+                        $candidates = glob('static/videos/*.{mp4,webm,mov}', GLOB_BRACE);
+                        if (!empty($candidates)) {
+                            $hero_video = $candidates[0];
+                        }
+                        ?>
+                        <?php if ($hero_video) { ?>
+                            <video autoplay muted loop playsinline class="img-fluid rounded-4 shadow-lg w-100" style="max-height: 420px; object-fit: cover; border: 2px solid rgba(7, 107, 170, 0.15);">
+                                <source src="/<?= htmlspecialchars($hero_video) ?>" type="video/mp4">
+                                Your browser does not support the video tag.
                             </video>
                         <?php } else { ?>
-                            <img loading="lazy" src="/static/images/logo/connectia-logo-xl.png" class="img-fluid" style="max-height: 340px; object-fit: contain;" alt="Connectia Technology">
+                            <div class="position-relative d-flex justify-content-center align-items-center w-100 rounded-4 p-4 p-lg-5" style="background: linear-gradient(135deg, rgba(7, 107, 170, 0.05), rgba(0, 153, 189, 0.12)); border: 2px dashed rgba(7, 107, 170, 0.25); min-height: 320px;">
+                                <div class="text-center">
+                                    <img loading="lazy" src="/static/images/logo/connectia-logo-xl.png" class="img-fluid mb-3" style="max-height: 180px; object-fit: contain;" alt="Connectia Technology">
+                                    <div class="d-flex align-items-center justify-content-center gap-2 text-muted font-14px font-roboto-slab">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#076baa" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                                        <span>Hero Video Ready &bull; Place Canva MP4 into static/videos/</span>
+                                    </div>
+                                </div>
+                            </div>
                         <?php } ?>
                     </div>
                 </div>
