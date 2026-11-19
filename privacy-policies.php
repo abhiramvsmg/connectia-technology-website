@@ -46,9 +46,9 @@
                 <div class="col-12 col-lg-12">
                     <div class="col-12 col-lg-12">
                         <p class="font-500 text-light-black opacity-0.8 lh-base font-18px text-justify"> Welcome to Connectia Technology, a leading IT services company specializing in the purchase, sale, resale, refunds, and warranties of digital services including cloud servers, web hosting, SSL certificates, Windows and Microsoft Office licenses, and business email hosting via Google Workspace and Microsoft 365. We also provide software development, website development, application and mobile app development, UI/UX and graphic design services, cybersecurity services, data protection and backup solutions, IT infrastructure consulting, service desk and technical support, SEO, digital marketing, and content writing services. By accessing or using our website, you agree to comply with and be bound by the following terms and conditions of use. Please read these terms carefully before using our website.</p>
-                        <!-- <p class="font-500 text-light-black opacity-0.8 lh-base font-18px text-justify">
-                            Please visit: <a href="www.connectiainfotech.in">www.connectiainfotech.in</a> Or <a href="www.connectiasolutions.in">www.connectiasolutions.in</a> Or <a href="www.connectia.in">www.connectia.in</a> for more information.
-                        </p> -->
+                        <p class="font-500 text-light-black opacity-0.8 lh-base font-18px text-justify">
+                            Please visit: <a href="https://www.connectiainfotech.in" class="text-decoration-none" style="color:#076baa;">www.connectiainfotech.in</a> for more information.
+                        </p>
                         <p class="font-500 text-light-black opacity-0.8 lh-base font-18px text-justify">
                             1. Acceptance of Terms<br>
                             By accessing or using our website, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use. If you do not agree to these terms, please refrain from using our website.

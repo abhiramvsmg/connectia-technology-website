@@ -72,7 +72,7 @@
                             Landline: 080-4976 0069 <br>
                             Mobile: 91-97417 65117 <br>
                             Mobile: 91-63644 79598 <br>
-                            Email: <a href="mailto:hr@connectiasolutions.in">hr@connectiasolutions.in</a><br>
+                            Email: <a href="mailto:support@connectia.in">support@connectia.in</a><br>
                         </p>
 
                     </div>

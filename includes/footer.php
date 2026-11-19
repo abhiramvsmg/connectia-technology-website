@@ -25,6 +25,7 @@
                                  <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/technical-support.php">Technical Support</a></li>
                                  <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/data-protection.php">Data Protection</a></li>
                                  <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/digital-marketing.php">Digital Marketing</a></li>
+                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/it-recruitment.php">IT Recruitment</a></li>
                              </ul>
                          </div>
                      </div>
@@ -37,6 +38,7 @@
                          <div>
                              <ul class="list-none list-outside p-0 d-flex flex-column gap-3">
                                  <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/">Home</a></li>
+                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/services.php">Services</a></li>
                                  <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/about.php">About us</a></li>
                                  <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/careers.php">Careers</a></li>
                                  <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="/blogs.php">Blog</a></li>

@@ -114,7 +114,6 @@ include 'admin/app/security/csrf.php';
             </div>
             <div class="w-75">
               <a class="text-decoration-none text-light-black" href="mailto:support@connectia.in">support@connectia.in</a>
-              <a class="text-decoration-none text-light-black" href="mailto:hr@connectiasolutions.in">hr@connectiasolutions.in</a>
             </div>
           </div>
         </div>

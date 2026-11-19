@@ -30,11 +30,11 @@
                     <!-- Services Dropdown -->
                     <div class="service-nav-item">
 
-                        <div class="nav-link cursor-pointer service-header-link"
+                        <a href="services.php" class="nav-link cursor-pointer service-header-link text-decoration-none"
                              tabindex="0"
                              aria-haspopup="true">
                             Services
-                        </div>
+                        </a>
 
                         <div class="service-header-container">
 
@@ -73,6 +73,8 @@
                                         <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="data-protection.php">Data Protection</a></li>
 
                                         <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="digital-marketing.php">Digital Marketing</a></li>
+
+                                        <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="it-recruitment.php">IT Recruitment</a></li>
 
                                     </ul>
                                 </div>
@@ -144,7 +146,7 @@
 
                             <a href="/" class="nav-link nav-link-active">Home</a>
 
-                            <a class="nav-link">Services</a>
+                            <a href="services.php" class="nav-link text-decoration-none">Services</a>
 
                             <ul class="list-none list-outside p-0 d-flex flex-column gap-3 ps-4">
 
@@ -167,6 +169,8 @@
                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="data-protection.php">Data Protection</a></li>
 
                                 <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="digital-marketing.php">Digital Marketing</a></li>
+
+                                <li><a class="text-decoration-none text-light-black opacity-0.7 font-400 font-16px" href="it-recruitment.php">IT Recruitment</a></li>
 
                             </ul>
 

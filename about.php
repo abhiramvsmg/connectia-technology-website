@@ -140,7 +140,7 @@
                     <p class="font-500 text-light-black opacity-0.8 lh-base font-18px">We&rsquo;ve spent a decade building for businesses that wanted a partner, not a project timeline. Now we&rsquo;re doing it for a bigger map &mdash; more industries, more regions, the same standard. If you&rsquo;re building something that matters, we want to be the team behind it.</p>
                 </div>
                 <div class="col-12 d-flex justify-content-center">
-                    <a href="index.php#services" class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600 text-decoration-none" style="background: linear-gradient(90deg, #076baa, #0099bd);">See what we do &rarr;</a>
+                    <a href="services.php" class="btn bg-light-blue text-white rounded-2 w-max padding-13-33 font-16px line-height-24px font-600 text-decoration-none" style="background: linear-gradient(90deg, #076baa, #0099bd);">See what we do &rarr;</a>
                 </div>
             </div>
         </div>

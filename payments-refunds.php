@@ -48,9 +48,9 @@
                 <div class="col-12 col-lg-12">
                     <div class="col-12 col-lg-12">
                         <p class="font-500 text-light-black opacity-0.8 lh-base font-18px text-justify"> Thank you for choosing Connectia Technology, a leading IT company specializing in the purchase, sale, resale, refunds, and warranties of digital services like servers, hosting, SSL certificates, Windows Office licenses, Email Services via Google and Microsoft and offer other services such as Application and Mobile Application development, UI/UX and Graphic Designing Services, IT Infrastructure Consulting and Services, Service Desk support Services, SEO, Digital Marketing and content writing services . These Terms and Conditions outline the rules and regulations governing payments and refunds when engaging with our services. By using our website and availing of our services, you agree to comply with these terms. Please read them carefully.</p>
-                        <!-- <p class="font-500 text-light-black opacity-0.8 lh-base font-18px text-justify">
-                            Please visit: <a href="www.connectiainfotech.in">www.connectiainfotech.in</a> Or <a href="www.connectiasolutions.in">www.connectiasolutions.in</a> for more information.
-                        </p> -->
+                        <p class="font-500 text-light-black opacity-0.8 lh-base font-18px text-justify">
+                            Please visit: <a href="https://www.connectiainfotech.in" class="text-decoration-none" style="color:#076baa;">www.connectiainfotech.in</a> for more information.
+                        </p>
                         <p class="font-500 text-light-black opacity-0.8 lh-base font-18px text-justify">
                             <u>Important For Digital Licences Only:</u><br>
                             Please note that digital licenses if defective then we will first replace it with new License code and if nothing works out then only can be refunded if this is requested via email to <a href="mailto:support@connectia.in">support@connectia.in</a> within 3 days of the purchase only if license key doesn’t work. No Licenses will be refunded after this period. Software compatibility is entirely a responsibility of the customer to check as we are the license seller, all software is provided by Microsoft and copyright of that company.

@@ -256,38 +256,20 @@ include 'admin/app/security/csrf.php';
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 d-none d-lg-block">
-                    <!-- Video Section (Placeholder - currently empty until video is added) -->
+                    <!-- Video Section (Autoplay muted loop playsinline) -->
                     <div class="d-flex justify-content-center align-items-center h-100">
+                        <?php if (file_exists('static/videos/connectia-hero.mp4')) { ?>
+                            <video autoplay muted loop playsinline class="img-fluid rounded-3 shadow" style="max-height: 400px; width: 100%; object-fit: cover;">
+                                <source src="/static/videos/connectia-hero.mp4" type="video/mp4">
+                            </video>
+                        <?php } else { ?>
+                            <img loading="lazy" src="/static/images/logo/connectia-logo-xl.png" class="img-fluid" style="max-height: 340px; object-fit: contain;" alt="Connectia Technology">
+                        <?php } ?>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="overflow-hidden">
-            <div class="row g-1">
-                <div class="col-12 col-lg-7">
-                    <div class="container h-100">
-                        <div class="row h-100">
-                            <div class="col-12 mb-3 h-100">
-                                <div class="d-flex flex-column align-items-start justify-content-center gap-3 h-100 px-2 px-lg-5 mx-2 mx-lg-5">
-                                    <h2 class="font-700 text-light-black font-size-2xl font-4-ls-0.5px lh-sm">Mobile Application and UI/UX Development in Bengaluru</h2>
-                                    <p class="font-400 text-light-black opacity-0.8 line-height-26px font-16px font-inter">With the goal of providing end to end design for UI & UX
-                                        to development and deployment of Android, IOS and Windows Application for small, medium and large scale buisness organizations</p>
-                                    <a href="/about" class="btn bg-light-blue text-white rounded-sm w-max py-2 px-4 font-16px line-height-24px text-uppercase">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-5 d-none d-lg-block">
-                    <div class="d-flex justify-content-center h-100">
-                        <div>
-                            <img loading="lazy" src="/static/images/mobile-development/mobile-banner.png" class="img-fluid" alt="Connectia-provide">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div class="py-4 text-white bg-dark-blue-50" style="background-color:#f1f6fd">
         <div class="container">
             <div class="row">
